@@ -1,0 +1,8 @@
+{"IfIf":"If",
+"hasCondition":"BinaryOp",
+'"=="':'"=="',
+"IfAssign":"Assignment",
+"hasIncrement":"UnaryOp",
+'"++"':'"p++"',
+'IfDecl':'Decl'
+}

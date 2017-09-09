@@ -1,0 +1,3 @@
+IfIf.hasCondition("==")
+IfAssign.hasIncrement("++")
+IfDecl.hasChildren("2")
