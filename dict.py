@@ -1,7 +1,7 @@
 def print_dict(given):
 	fd = open(given,"r")
 	fd1 = open("dictfrom","r")
-	fd2 = open("dictto","w")
+	fd2 = open("2","w")
 	
 	#line = fd.readline()
 	dict1 = ""

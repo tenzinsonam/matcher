@@ -1,3 +1,6 @@
-IfIf.hasCondition("==")
-IfAssign.hasIncrement("++")
-IfDecl.hasChildren("2")
+If.hasEqualCondition
+IfAssign.hasIncrement
+IfDecl.hasPtr.and.IfDecl.initialized
+If.hasAssignment
+IfAssign.hasStarOperation
+IfAssign.hasAssignment
