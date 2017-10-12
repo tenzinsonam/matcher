@@ -1,0 +1,14 @@
+{"If":"If",
+"hasEqualCondition":"BinaryOp('==')",
+'hasStarOperation':'UnaryOp("*")',
+'"=="':'"=="',
+"IfAssign":"Assignment",
+"hasIncrement":"UnaryOp('p++')",
+'"++"':'"p++"',
+'IfDecl':'Decl',
+'hasPtr':'hasChild("PtrDecl")',
+'hasAssign':'hasChild("Assignment")',
+'and':'&&',
+'initialized':'hasChildren("2")',
+'hasAssignment':'hasChild("Assignment")'
+}
