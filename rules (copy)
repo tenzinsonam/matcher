@@ -1,0 +1,6 @@
+If.hasEqualCondition							If.BinaryOp("==")
+IfAssign.hasIncrement							Assignment.UnaryOp("p++")
+IfDecl.hasPtr.and.IfDecl.initialized			Decl.hasChildren("2")&&Decl.hasChild("PtrDecl")
+If.hasAssignment								If.hasChild("Assignment")
+IfAssign.hasStarOperation						Assignment.UnaryOp("*")
+IfAssign.hasAssignment							Assignment.hasChild("Assignment")

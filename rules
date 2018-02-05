@@ -1,0 +1,6 @@
+If.hasEqualCondition							#use EQ macro
+IfAssign.hasIncrement							#increment assignments
+IfDecl.hasPtr.and.IfDecl.initialized			#pointer decl and initialize
+If.hasAssignment								#if should not have equal
+IfAssign.hasStarOperation						#pointer intialize not decl
+IfAssign.hasAssignment							#more than one assignments

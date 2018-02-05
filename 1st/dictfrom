@@ -1,4 +1,4 @@
-If.hasEqualCondition
+If.hasEqualCondition							
 IfAssign.hasIncrement
 IfDecl.hasPtr.and.IfDecl.initialized
 If.hasAssignment

@@ -23,8 +23,8 @@ info of parent cant be updated if there is a child which also requires the info 
 #############
 ut = {'hasChildren':'','hasChild':hasChild}     #utiltity functions #should return 1 or 0
 d1 = {'Assignment':'','If':''}    #info classes as per types
-d2 = {'1':{'UnaryOp':'p++'},'2':{'BinaryOp':'=='},'3':{'hasChild':'Assignment'},'4':{'UnaryOp':'*'},'5':{'hasChild':'Assignment'}}    #rule attributes #for checking if it contains sometype put the value for this 'sometype' key as -1
-d3 = {'Assignment':['1','4','5'],'If':['2','3']}   #rules required for each type
+d2 = {'1':{'UnaryOp':'p++'},'2':{'BinaryOp':'=='}}    #rule attributes #for checking if it contains sometype put the value for this 'sometype' key as -1
+d3 = {'Assignment':['1'],'If':['2']}   #rules required for each type
 st1 = []                    #stack used in dfs
 
 
@@ -126,7 +126,12 @@ def dfs(node, inf):
 
 
 func1()     #populate Assignmwnt info class
-#assert False
+print "info class contains a list named 'rule' and a dictionary named 'fields'"
+print "info class of Assignment"
+print "rule = "+str(d1['Assignment'].rule)
+print "fields = "+str(d1['Assignment'].fields)
+assert False
+
 
 ast=parse_file("sample.c")
 dfs(ast,None)

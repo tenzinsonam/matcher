@@ -83,7 +83,7 @@ def rule0(node):
 
 	for m in nodelist:
 		m.show()
-		print 'rule0'
+		print(m.coord.line)
 
 def rule1(node):
 	nodelist = []
@@ -113,7 +113,7 @@ def rule1(node):
 
 	for m in nodelist:
 		m.show()
-		print 'rule1'
+		print(m.coord.line)
 
 def rule2(node):
 	nodelist = []
@@ -156,7 +156,7 @@ def rule2(node):
 
 	for m in nodelist:
 		m.show()
-		print 'rule2'
+		print(m.coord.line)
 
 def rule3(node):
 	nodelist = []
@@ -181,7 +181,7 @@ def rule3(node):
 
 	for m in nodelist:
 		m.show()
-		print 'rule3'
+		print(m.coord.line)
 
 def rule4(node):
 	nodelist = []
@@ -211,7 +211,7 @@ def rule4(node):
 
 	for m in nodelist:
 		m.show()
-		print 'rule4'
+		print(m.coord.line)
 
 def rule5(node):
 	nodelist = []
@@ -236,7 +236,7 @@ def rule5(node):
 
 	for m in nodelist:
 		m.show()
-		print 'rule5'
+		print(m.coord.line)
 
 
 ast = parse_file("sample.c")

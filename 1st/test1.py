@@ -20,7 +20,10 @@ def norm(ruleno):
 	funstr=givetab(tabcount, funstr)
 	funstr+="m.show()\n"
 	funstr=givetab(tabcount, funstr)
-	funstr+="print 'rule"+str(ruleno)+"'\n"
+	#funstr+="print 'rule"+str(ruleno)+"'\n"
+	
+	funstr+="print(m.coord.line)\n"
+	
 	return funstr
 
 def parse(filename):
